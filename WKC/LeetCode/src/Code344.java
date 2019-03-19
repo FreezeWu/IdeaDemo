@@ -17,11 +17,38 @@
 输出：["h","a","n","n","a","H"]
 */
 
-import java.util.Arrays;
-
 public class Code344 {
     public void reverseString(char[] s) {
+        if(s.length == 0){
+            System.out.println("[]");
+            return;
+        }
 
+        char temp = 0;
 
+        for (int i = 0; i < s.length / 2; i++) {
+                temp = s[i];
+                s[i] = s[s.length - i - 1];
+                s[s.length - i - 1] = temp;
+            }
+
+        String str = "[";
+
+        for (int i = 0; i < s.length - 1; i++) {
+            str += "\"" + s[i] + "\"" + ",";
+        }
+
+        str += "\"" + s[s.length - 1] + "\"" + "]";
+
+        System.out.println(str);
+
+    }
+
+    public static void main(String[] args) {
+        Code344 code344 = new Code344();
+
+        char[] chars = {'a', 'b', 'c', 'd', 'e'};
+
+        code344.reverseString(chars);
     }
 }
