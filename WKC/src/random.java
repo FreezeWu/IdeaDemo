@@ -2,14 +2,15 @@ import java.util.*;
 public class random {
 	public static void main(String args[]) {
 		Random r = new Random();
-		int key = r.nextInt(100);
+		//生成1-100的伪随机数
+		int key = r.nextInt(100) + 1;
 		
 		System.out.println("please input a number:");
 		
 		Scanner sc = new Scanner(System.in);
 		int num = sc.nextInt();
 		
-		if(num < 0 && num >= 100)
+		if(num <= 0 || num > 100)
 			System.out.println("num is out of range");
 		
 		

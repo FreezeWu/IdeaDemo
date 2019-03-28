@@ -24,7 +24,7 @@ public class TestArratList {
 
     }
 
-    public static  String strTest(int[] array){
+    public static String strTest(int[] array){
         String str = "[";
         for(int i = 0; i <= array.length - 1; i++)
         {
@@ -38,10 +38,10 @@ public class TestArratList {
         return str;
     }
 
-    public static  void types(String str){
+    public static void types(String str){
         int countLower = 0,countUpper = 0,countNum = 0,countChar = 0;
 
-        String[] strArray = new String[str.length()];
+        String[] strArray;
         strArray = str.split("");
         for(int i = 0; i <= strArray.length - 1; i++){
             if(strArray[i].matches("[A-Z]"))
