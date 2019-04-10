@@ -6,7 +6,7 @@ package com.wkc.demo;
 */
 
 
-public class Day05 {
+public class ArrayElements {
 
 
     public static void main(String[] args) {

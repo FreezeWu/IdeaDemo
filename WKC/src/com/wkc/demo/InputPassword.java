@@ -4,7 +4,7 @@ import java.util.Hashtable;
 import java.util.Map;
 import java.util.Scanner;
 
-public class Day07 {
+public class InputPassword {
 
     //最大输入尝试次数
     static final int MAX_INPUT_TIMES = 5;

@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/FirstCoding/FirstCoding.iml" filepath="$PROJECT_DIR$/FirstCoding/FirstCoding.iml" />
       <module fileurl="file://$PROJECT_DIR$/LeetCode/LeetCode.iml" filepath="$PROJECT_DIR$/LeetCode/LeetCode.iml" />
       <module fileurl="file://$PROJECT_DIR$/Multi/Multi.iml" filepath="$PROJECT_DIR$/Multi/Multi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SecondCoding/SecondCoding.iml" filepath="$PROJECT_DIR$/SecondCoding/SecondCoding.iml" />
       <module fileurl="file://$PROJECT_DIR$/WKC.iml" filepath="$PROJECT_DIR$/WKC.iml" />
     </modules>
   </component>
